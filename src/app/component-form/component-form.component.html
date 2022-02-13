@@ -1,0 +1,18 @@
+<form [formGroup]="formGroup">
+
+  <div class="mb-3">
+    <label for="vlrPurchase" class="form-label">Valor da compra</label>
+    <input type="number" class="form-control form-control-lg" id="vlrPurchase" formControlName="vlrPurchase"
+      placeholder="R$ 0,00" (keyup)="gerar()">
+  </div>
+
+  <div class="mb-3">
+    <label for="vlrInput" class="form-label">Entrada em dinheiro</label>
+    <input type="number" class="form-control form-control-lg" id="vlrInput" formControlName="vlrInput"
+      placeholder="R$ 0,00" (keyup)="gerar()">
+  </div>
+
+</form>
+
+
+<app-component-table [values]="tableComponentValues"></app-component-table>

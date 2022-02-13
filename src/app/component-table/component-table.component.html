@@ -1,0 +1,22 @@
+<table class="table">
+
+  <thead>
+    <tr>
+      <th scope="col">PARCELAS</th>
+      <th scope="col"> VALOR DAS PARCELAS</th>
+      <th scope="col">VALOR TOTAL</th>
+
+    </tr>
+  </thead>
+
+  <tbody *ngFor="let value of values">
+
+
+    <tr style="font-size: 20px" class="">
+      <td class="">{{value.parcel }}</td>
+      <td class="">{{value.vlrParcel | currency :'BRL':'symbol':'0.1-2':'pt'}}</td>
+      <td class=""> {{value.totalValue |currency:'BRL' :'symbol':'0.1-2':'pt' }}</td>
+    </tr>
+
+  </tbody>
+</table>
