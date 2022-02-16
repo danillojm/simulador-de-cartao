@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+html, body {
+	margin: 0;
+  width: 100vw;
+	height: 100vh;
+  background-color: #070A0F;
+}
+.icon-button{
+  width: 40px;
+  margin-right: 30px;
+  padding: 0px;
+}
+.img-logo-home{
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.div-logo-home{
+text-align: center;
+ padding: 30px;
+
+}
+.div-logo-home a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Karla', sans-serif;
+
+}
+
+.btn-link{
+
+  margin: 0px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: auto;
+  position: relative;
+  padding: 16px 20px;
+
+  appearance: none;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Karla', sans-serif;
+}
+.btn-link-color{
+  z-index: 0;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: none;
+    background-color: #00609F;
+    color: rgb(255, 255, 255);
+    transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
+}
+
+.btn-link:hover{
+ background-color: #186da5;
+
+}
+.btn-link a{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+  color:white;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.div-btn{
+  margin-top: 30px;
+}
+
+.header a {
+  font-family: 'Karla', sans-serif;
+  color:width;
+}
