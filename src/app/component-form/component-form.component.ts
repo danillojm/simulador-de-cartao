@@ -34,9 +34,23 @@ export class ComponentFormComponent implements OnInit {
 
 
   }
+  /* Débito 1,49%
+   Crédito 3,29%
+
+   2x 3,93%
+   3x 4,56%
+   4x 5,19%
+   5x 5,81%
+   6x 6,43%
+   7x 7,34%
+   8x 7,94%
+   9x 8,54%
+   10x 9,15%
+   11x 9,73%
+   12x 10,32% */
 
   calculation() {
-    const percentage = ["1,29", "2,30", "3,42", "3,78", "4,15", "4,51", "4,87", "5,23", "5,59", "5,95", "6,30", "6,66", "7,1"]
+    const percentage = ["1,49", "3,29", "3,93", "4,56", "5,19", "5,81", "6,43", "7,34", "7,94", "8,54", "9,15", "9,73", "10,32"]
     this.tableComponentValues = []
     let parcel = ''
     let vlrParcel = 0
