@@ -11,6 +11,16 @@
     <input type="number" class="form-control form-control-lg" id="vlrInput" formControlName="vlrInput"
       placeholder="R$ 0,00" (keyup)="calculation()">
   </div>
+
+  <div class="mb-3">
+    <label for="selectCard" class="form-label">Bandeira do cartão:</label>
+    <select id="selectCard" class="form-select" aria-label="Default select example"  formControlName="selectCard" (click)="calculation()" >
+      <option value="MASTER_E_VISA" selected>MASTER E VISA</option>
+      <option value="ELO_E_OUTRAS">ELO E OUTRAS</option>
+    </select>
+
+  </div>
+
 </form>
 
 <app-component-table [values]="tableComponentValues"></app-component-table>
